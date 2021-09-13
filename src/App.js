@@ -1,11 +1,13 @@
 // import UseState from './UseState';
 // import UseEffect from './UseEffect';
-import UseMemo from './UseMemo';
+// import UseMemo from './UseMemo';
+import UseRef from './UseRef';
 
 function App() {
   return (
     <>
-      <UseMemo />
+      <UseRef />
+      {/* <UseMemo /> */}
       {/* <UseEffect /> */}
       {/* <UseState /> */}
     </>
