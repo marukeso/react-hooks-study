@@ -5,12 +5,14 @@
 // import UseContext from './UseContext';
 // import UseReducer from './UseReducer';
 // import UseReducer2 from './UseReducer2';
-import UseCallback from './UseCallback';
+// import UseCallback from './UseCallback';
+import UseCustomHooks from './UseCustomHooks';
 
 function App() {
   return (
     <>
-      <UseCallback />
+      <UseCustomHooks />
+      {/* <UseCallback /> */}
       {/* <UseReducer2 /> */}
       {/* <UseContext /> */}
       {/* <UseRef /> */}
